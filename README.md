@@ -1,5 +1,4 @@
 # Getting Started
-<<<<<<< HEAD
 
 ### Installation
 
@@ -8,8 +7,6 @@ Git clone the repo and navigate into it
 ```bash
 git clone git@github.com:liz-zheng/top-template-adoption-rates.git
 ```
-=======
->>>>>>> cdefcf53 (update component see more on click and other minor stuff)
 
 ```bash
 cd top-template-adoption-rates
@@ -29,7 +26,6 @@ npm start
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-<<<<<<< HEAD
 # Component Documentation
 
 ### Overview
@@ -73,13 +69,3 @@ To execute all the available tests for each component, use the following command
 npm test
 ```
 
-
-
-
-=======
-### `npm test`
-
-Launches the component tests
-
-# Component Documentation
->>>>>>> cdefcf53 (update component see more on click and other minor stuff)
