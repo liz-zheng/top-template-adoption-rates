@@ -31,11 +31,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Overview
 The TopAdoptionRates component fetches template data through an API call and displays the top adoption rates of different templates, with the highest rate shown as a percentage using a circular progress indicator. It also shows additional template data in a tabular format. This component lets users quickly get insight into which templates are highly adopted after creation. 
 
+![image](https://github.com/liz-zheng/top-template-adoption-rates/assets/15348137/66d07591-76b0-4684-a0c2-9a5fcbfa2d08)
+
+
 ### Props
 
 The component accepts the following props: 
 
-`apiUrl` (optional): The API endpoint to fetch template data. If not provided, the component will use sample data for demonstration purposes.
+`apiUrl` (optional): The API endpoint to fetch template data. For this project, sample data is used for demonstration purposes.
 
 ### Usage
 Import the component in your project and use it like this:
@@ -57,6 +60,15 @@ const App: React.FC = () => {
 
 export default App;
 ```
+# Component Tests
+
+### Running tests 
+To execute all the available tests for each component, use the following command: 
+
+```bash
+npm test
+```
+
 
 
 
