@@ -69,3 +69,7 @@ To execute all the available tests for each component, use the following command
 npm test
 ```
 
+# Design Resources
+Link to the Figma design and design decisions for this component 
+
+[Figma Link](https://www.figma.com/file/PKUgE1PqDf1U7PuWU7JPve/Liz-Zheng-Coder-Take-Home?type=design&node-id=0%3A1&mode=design&t=V7U7WYvCPuCd9YBp-1)
