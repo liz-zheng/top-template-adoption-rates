@@ -31,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Overview
 The TopAdoptionRates component fetches template data through an API call and displays the top adoption rates of different templates, with the highest rate shown as a percentage using a circular progress indicator. It also shows additional template data in a tabular format. This component lets users quickly get insight into which templates are highly adopted after creation. 
 
-![image](https://github.com/liz-zheng/top-template-adoption-rates/assets/15348137/66d07591-76b0-4684-a0c2-9a5fcbfa2d08)
+![image](https://github.com/liz-zheng/top-template-adoption-rates/assets/15348137/0496e31d-a4d7-4f37-ba4b-d72fccd231cf)
 
 
 ### Props
