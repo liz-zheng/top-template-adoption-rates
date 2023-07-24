@@ -1,5 +1,5 @@
-import React from 'react';
-import './DynamicGrid.scss';
+import React from "react";
+import "./DynamicGrid.scss";
 interface GridData {
   [key: string]: string;
 }

@@ -1,5 +1,5 @@
-import React from 'react';
-import './SimpleGrid.scss';
+import React from "react";
+import "./SimpleGrid.scss";
 
 interface CellData {
   title: string;

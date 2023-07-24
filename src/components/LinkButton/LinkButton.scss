@@ -1,4 +1,4 @@
-@import '../../styles/variables';
+@import "../../styles/variables";
 
 .link-button {
   margin-top: $margin-xlarge;
@@ -6,7 +6,7 @@
   border: none;
   background: none;
   color: $lightBlue;
-  font-size: $font-medium;
+  font-size: $font-small;
   text-decoration: none;
   cursor: pointer;
 }

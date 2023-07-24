@@ -1,6 +1,8 @@
-@import '../../styles/variables';
+@import "../../styles/variables";
 
 .dynamic-grid {
+  border: 1px solid $dimBlue;
+  border-radius: 5px;
   grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
   gap: $padding-medium;
 
@@ -8,7 +10,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
     gap: $padding-small;
-    border: 0.5px solid $dimBlue;
+    border-bottom: 1px solid $dimBlue;
     padding: $padding-medium;
   }
 

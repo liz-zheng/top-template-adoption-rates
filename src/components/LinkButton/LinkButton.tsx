@@ -1,5 +1,5 @@
-import React, { MouseEventHandler } from 'react';
-import './LinkButton.scss';
+import React, { MouseEventHandler } from "react";
+import "./LinkButton.scss";
 
 interface LinkButtonProps {
   onClick?: MouseEventHandler<HTMLButtonElement>;
