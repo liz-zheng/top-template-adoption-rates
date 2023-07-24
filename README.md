@@ -15,7 +15,7 @@ cd top-template-adoption-rates
 Install relevant packages and libraries
 
 ```bash
-npm install top-template-adoption-rates
+npm install
 ```
 ### Running the Component
 
