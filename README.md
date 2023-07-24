@@ -5,7 +5,7 @@
 Git clone the repo and navigate into it
 
 ```bash
-git@github.com:liz-zheng/top-template-adoption-rates.git
+git clone git@github.com:liz-zheng/top-template-adoption-rates.git
 ```
 
 ```bash
