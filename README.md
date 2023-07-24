@@ -52,7 +52,7 @@ const App: React.FC = () => {
 
   return (
     <div>
-      <h1>My App</h1>
+      <h1>Top Template Adoption Rates</h1>
       <TopAdoptionRates apiUrl={apiUrl} />
     </div>
   );
