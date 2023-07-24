@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.dynamic-grid {
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  gap: $padding-medium;
+
+  .grid-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    gap: $padding-small;
+    border: 0.5px solid $dimBlue;
+    padding: $padding-medium;
+  }
+
+  .grid-row.header {
+    background-color: $lighterMidnight;
+    color: $lightBlue;
+    font-weight: bold;
+  }
+
+  .grid-heading {
+    font-size: $font-small;
+    padding: $padding-small;
+    color: $lightBlue;
+    overflow-wrap: break-word;
+  }
+
+  .grid-content {
+    padding: $padding-small;
+    overflow-wrap: break-word;
+    color: $white;
+  }
+}

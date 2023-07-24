@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.simple-grid-container {
+  color: $white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: $padding-large;
+  margin-top: $margin-large;
+
+  .grid-cell {
+    padding: $padding-small;
+
+    .cell-title {
+      color: $lightBlue;
+    }
+
+    .cell-content {
+      margin-top: $margin-medium;
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import 'styles/variables';
+
+.top-adoption-rates {
+  padding: $padding-xlarge;
+  text-align: left;
+  background-color: $midnight;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    color: #acb7cd;
+    flex-grow: 1;
+    display: flex;
+    margin-bottom: $margin-large;
+  }
+
+  .top-adoption-percent {
+    display: flex;
+    justify-content: left;
+  }
+
+  .top-template-detail {
+    margin-left: $margin-enormous;
+  }
+
+  .template-adoption-grid {
+    margin-top: $margin-xlarge;
+  }
+
+  .button {
+    font-size: $font-small;
+    text-align: right;
+    margin-top: $margin-medium;
+    padding: $padding-medium;
+    color: $lightBlue;
+    text-decoration: none;
+  }
+}

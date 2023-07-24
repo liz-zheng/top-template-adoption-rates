@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+
+.text-display-container {
+  h4 {
+    margin: 0;
+    font-weight: 500;
+    color: $lightBlue;
+  }
+
+  p {
+    margin-top: $margin-medium;
+    margin-bottom: $margin-medium;
+    color: $white;
+    font-size: 32px;
+  }
+}
